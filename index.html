@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Coffee Database</title>
+</head>
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    LOGO
+                </div>
+                <div class="col">
+                    <h1>Site Title</h1>
+                </div>
+                <div class="col-md-5">
+                    <div class="button-group d-none text-right">
+                        <button class="btn btn-sm btn-dark">Profile</button>
+                        <button class="btn btn-sm btn-dark">Add a New Coffee</button>
+                        <button class="btn btn-sm btn-dark">Your Favorites</button>
+                        <button class="btn btn-sm btn-danger">Log Out</button>
+                    </div>
+                    <div class="button-group text-right">
+                        <button class="btn btn-sm btn-info">Log In</button>
+                        <button class="btn btn-sm btn-success">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#coffeeNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="coffeeNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href='#'>Home</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Coffee Search
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Flavor Profile</a>
+                        <a class="dropdown-item" href="#">Growing Region</a>
+                    </div></li>
+                    <li class="nav-item"><a class="nav-link" href="shops.html">Local Shops</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Welcome to BeanBase!</h3>
+                <p>Discover your favorite coffee! The coffee bean is one of the most versatile ingredients, and we here at BeanBase respect that! Our goal is to provide our users with the ability to find their favorite flavors in their area and discover new brews from local roasters.</p>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-header">
+                        Latin America
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="latin-america.html">View Latin American Coffees</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Africa
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>Coffees grown in the Africa region often have notes of fruit, medium body, and high acidity.</p>
+                      </blockquote>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="africa.html">View African Coffees</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        Asia
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                      </blockquote>
+                    </div>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="asia-pacific.html">View Asian Coffees</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col">
+                <h3>Local Roasters</h3>
+            </div>
+            <div class="col-sm-6">
+                <p>Create an account with us! You can add your newest experiments, blends, and flavor profiles! You can also add shops where you are selling your roasts to help customers find your products!</p>
+            </div>
+        </div>
+        <div class="row row-content">
+            <div class="col order-sm-last text-sm-right">
+                <h3>Local Coffee Shops</h3>
+            </div>
+            <div class="col-sm-6">
+                <p>Create an account with us! Add the roasts and flavors your shop is currently offering. This can increase your sales and help pair customers with your store.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">             
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
+                        <li><a href="#">Sites</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-5 text-center">
+                    <h5>Social</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12345678910"><i class="fa fa-phone"></i> 1-234-567-8910</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:admin@beanbase.com"><i class="fa fa-envelope-o"></i> admin@beanbase.com</a>
+                </div>              
+           </div>
+        </div>
+        </div>
+    </footer>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

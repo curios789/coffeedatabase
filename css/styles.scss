@@ -1,3 +1,22 @@
-jumbotron {
+$line: #aaa;
+.jumbotron {
     margin: 0;
+}
+.map {
+    padding: 0;
+}
+#map {
+    height: 400px;
+}
+li {
+    &.media {
+        padding: 1em;
+        margin-bottom: 1em;
+        border-bottom: 1px solid $line;
+    }
+}
+input {
+    &#address {
+        width: 100%;
+    }
 }
